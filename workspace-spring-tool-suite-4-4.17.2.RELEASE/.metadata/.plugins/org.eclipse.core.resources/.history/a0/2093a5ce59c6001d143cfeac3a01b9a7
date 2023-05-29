@@ -1,0 +1,10 @@
+package springdemo;
+
+public class object {
+	
+	void helper()
+	{
+		System.out.println("Hello world");
+	}
+
+}

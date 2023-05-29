@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   
+   <bean id="Batch1" class="assign3.Batch">
+   <property name="id" value=""></property>
+   <property name="domain" value=""></property>
+   <property name="code" value=""></property>
+   </bean>
+   
+   <bean id="Batch2" class="assign3.Batch">
+   <property name="id" value=""></property>
+   <property name="domain" value=""></property>
+   <property name="code" value=""></property>
+   </bean>
+   
+   <bean id="Batch3" class="assign3.Batch">
+   <property name="id" value=""></property>
+   <property name="domain" value=""></property>
+   <property name="code" value=""></property>
+   </bean>
+   
+   <bean id="location" class="assign3.Location">
+   <property name="locationname" value="Bangalore"></property>
+   <property name="Batch">
+   <list>
+   <ref bean="Batch1"></ref>
+   <ref bean="Batch2"></ref>
+   <ref bean="Batch3"></ref>
+   </list>
+   </property>
+   
+   </bean>
+   
+   
+   
+   
+   </beans>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
+    <fullyQualifiedTypeName name="springdemo.demo"/>
+    <fullyQualifiedTypeName name="springdemo.object"/>
+    <fullyQualifiedTypeName name="com.springdemo.Triangle"/>
+    <fullyQualifiedTypeName name="org.springframework.aop.interceptor.ConcurrencyThrottleInterceptor"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+    <fullyQualifiedTypeName name="first.Circle"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+</qualifiedTypeNameHistroy>

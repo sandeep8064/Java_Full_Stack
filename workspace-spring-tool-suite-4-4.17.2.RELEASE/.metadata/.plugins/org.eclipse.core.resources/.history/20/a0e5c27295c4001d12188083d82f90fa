@@ -1,0 +1,11 @@
+package springdemo;
+
+public class demo {
+
+	public static void main(String[] args) {
+		
+		BeanFactory factory = new xmlBeanFactory(new FileSystemResource(spring.xml));
+
+	}
+
+}
